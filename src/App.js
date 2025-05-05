@@ -7,14 +7,14 @@ import Header from './components/Header'
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Profile from './pages/Profile';
-import Loader from './components/Loader';
-
+import { Toaster } from 'react-hot-toast';
 
 function App() {
   return (
     <Router>
       <UserProvider>
         <div className="min-h-screen flex flex-col bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100">
+          <Toaster position='top-right' reverseOrder={false}/>
           <Header />
           <main className="flex-1 container mx-auto px-4 py-6">
             <Routes>
