@@ -1,4 +1,4 @@
-# Craigslist Redesign - LevelUp Vibe Coding Hackathon Project
+# Craiglist Redesign - LevelUp Vibe Coding Hackathon Project
 
 A visually enhanced, fully responsive version of the classic Craigslist website, built for the **Level Up: Vibe Coding Hackathon (May 2–4, 2025)**. This modern redesign combines the simplicity of Craigslist and adds powerful features like AI-powered search, user profiles, bookmarks, calendar planning, and interactive micro-UX.
 
