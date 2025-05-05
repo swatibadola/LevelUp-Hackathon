@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Craigslist Redesign - LevelUp Vibe Coding Hackathon Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A visually enhanced, fully responsive version of the classic Craigslist website, built for the **Level Up: Vibe Coding Hackathon (May 2–4, 2025)**. This modern redesign combines the simplicity of Craigslist and adds powerful features like AI-powered search, user profiles, bookmarks, calendar planning, and interactive micro-UX.
 
-## Available Scripts
+## 🌟 Key Features
 
-In the project directory, you can run:
+| Feature                          | Description                                                                 |
+|----------------------------------|-----------------------------------------------------------------------------|
+| 🌙 Dark Mode Toggle              | Seamless light/dark theme switching using Tailwind's `dark:` classes       |
+| 🔍 AI-Powered Search Suggestions | Smart autocomplete using Fuse.js for fuzzy search                          |
+| 🗓️ Interactive Calendar          | Add/view reminders for events or listing dates                             |
+| 🧩 Category Filters              | Dynamically filter listings based on selected categories                   |
+| 🔔 Notification Toasts           | Instant feedback with `react-hot-toast` for user actions                   |
+| 📱 Mobile Bottom Navigation      | Responsive bottom nav for improved UX on small screens                     |
+| 📭 Empty State UIs               | Clean placeholders when no data is available                               |
+| ⏳ Animated Loaders              | Aesthetic shimmer loaders with Framer Motion for content transitions       |
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React** (with Vite)
+- **Tailwind CSS**
+- **Framer Motion** (animations)
+- **Fuse.js** (fuzzy search)
+- **react-hot-toast**
+- **React Router DOM**
+- **LocalStorage API**
+- **Context API** (for user state)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧠 How to Run Locally
+```bash
+git clone https://github.com/your-username/craigslist-enhanced.git
+cd craigslist-enhanced
+npm install
+npm run dev
 
-### `npm run build`
+🤝 Team & Contributions
+This project was built solo by Swati, a passionate final-year + Data Science student, during the Vibe Coding Hackathon 2025.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📬 Contact
+Want to connect, collaborate, or hire?
+Portfolio: [Coming Soon]
+LinkedIn: linkedin.com/in/swati-badola-b28a2722a/
+GitHub: https://github.com/swatibadola
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
