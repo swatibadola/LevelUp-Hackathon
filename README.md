@@ -34,6 +34,7 @@ git clone https://github.com/your-username/craigslist-enhanced.git
 cd craigslist-enhanced
 npm install
 npm run dev
+```
 
 🤝 Team & Contributions
 This project was built solo by Swati, a passionate final-year + Data Science student, during the Vibe Coding Hackathon 2025.
@@ -43,5 +44,3 @@ Want to connect, collaborate, or hire?
 Portfolio: [Coming Soon]
 LinkedIn: linkedin.com/in/swati-badola-b28a2722a/
 GitHub: https://github.com/swatibadola
-
-
