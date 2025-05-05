@@ -36,11 +36,11 @@ npm install
 npm run dev
 ```
 
-🤝 Team & Contributions
+## 🤝 Team & Contributions
 This project was built solo by Swati, a passionate final-year + Data Science student, during the Vibe Coding Hackathon 2025.
 
-📬 Contact
-Want to connect, collaborate, or hire?
-Portfolio: [Coming Soon]
-LinkedIn: linkedin.com/in/swati-badola-b28a2722a/
-GitHub: https://github.com/swatibadola
+## 📬 Contact
+Want to CONNECT, COLLABORATE, or HIRE?
+**Portfolio:** [Coming Soon]
+**LinkedIn:** linkedin.com/in/swati-badola-b28a2722a/
+**GitHub:** https://github.com/swatibadola
