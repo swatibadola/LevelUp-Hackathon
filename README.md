@@ -42,5 +42,5 @@ This project was built solo by Swati, a passionate final-year + Data Science stu
 ## 📬 Contact
 Want to CONNECT, COLLABORATE, or HIRE?
 **Portfolio:** [Coming Soon]
-**LinkedIn:** linkedin.com/in/swati-badola-b28a2722a/
-**GitHub:** https://github.com/swatibadola
+**LinkedIn:** [linkedin.com/in/swati-badola-b28a2722a/](https://x.com/SwatiBadola3)
+**GitHub:** [https://github.com/swatibadola](https://github.com/swatibadola)
