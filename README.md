@@ -30,8 +30,8 @@ A visually enhanced, fully responsive version of the classic Craigslist website,
 
 ## 🧠 How to Run Locally
 ```bash
-git clone https://github.com/your-username/craigslist.git
-cd craigslist
+git clone https://github.com/your-username/craiglist.git
+cd craiglist
 npm install
 npm run dev
 ```
