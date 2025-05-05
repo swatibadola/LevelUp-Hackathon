@@ -1,0 +1,22 @@
+[
+    {
+      "title": "Community",
+      "links": ["Activities", "Events", "Groups"]
+    },
+    {
+      "title": "Housing",
+      "links": ["Apartments", "Room Share", "Vacation Rentals"]
+    },
+    {
+      "title": "Jobs",
+      "links": ["IT", "Marketing", "Engineering"]
+    },
+    {
+      "title": "Services",
+      "links": ["Beauty", "Financial", "Repair"]
+    },
+    {
+      "title": "For Sale",
+      "links": ["Electronics", "Furniture", "Books"]
+    }
+  ]

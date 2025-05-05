@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { UserProvider } from './context/UserContext';
+
+import Header from './components/Header'
+// import SearchBar from './features/SearchBar';
+// import CategoryGroup from './components/CategoryGroup';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import Profile from './pages/Profile';
+import Loader from './components/Loader';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <UserProvider>
+        <div className="min-h-screen flex flex-col bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100">
+          <Header />
+          <main className="flex-1 container mx-auto px-4 py-6">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/profile" element={<Profile />} />
+              {/* Add more routes here if needed */}
+            </Routes>
+          </main>
+          <Footer />
+        </div>
+      </UserProvider>
+    </Router>
   );
 }
 
